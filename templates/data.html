@@ -1,0 +1,6 @@
+<img alt="coverImage" src={{form_data['coverImage']['extraLarge']}} width="400">
+<br>
+<h1> {{form_data['title']['romaji'] | safe}} ({{form_data['title']['english'] | safe}})</h1>
+<h2> Release year: {{form_data['seasonYear'] | safe}} </h2>
+<p> {{form_data['description'] | safe}} </p>
+<a href={{form_data['siteUrl']}}>Anilist page</a>
